@@ -1,0 +1,132 @@
+:root {
+  --pale-blue:hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue:hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --white: #fff;
+}
+
+* {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background: var(--very-pale-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-hero {
+  background: var(--white);
+  border-radius: 1.6rem;
+  height: 95%;
+  max-width: 41.6rem;
+}
+
+.image-card img {
+  width: 100%;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.content-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2.8rem 3.2rem 0 3.2rem;
+  text-align: center;
+}
+
+.content-card h1 {
+  font-size: 2.4rem;
+  color: var(--dark-blue);
+  font-weight: 900;
+  padding: 0 0 1.8rem 0;
+}
+
+.content-card p {
+  font-size: 1.6rem;
+  color: var(--desaturated-blue);
+}
+
+.music-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  background: var(--very-pale-blue);
+  border-radius: 0.8rem;
+  padding: 2.4rem 1.6rem;
+  margin: 1.6rem 0 1.6rem 0;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price img {
+  width: 4.8rem;
+  margin-right: 1.6rem;
+}
+
+.annual-plan {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-price {
+  font-size: 1.6rem;
+}
+
+.annual-plan strong {
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.annual-plan span {
+  color: var(--desaturated-blue);
+  font-weight: 900;
+}
+
+.music-price a {
+  color: var(--bright-blue);
+  font-size: 1.4rem;
+}
+
+.content-card button {
+  background: var(--bright-blue);
+  width: 100%;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 0.8rem; 
+  box-shadow: 0px 20px 20px rgba(56, 42, 255, 0.2);
+  margin-bottom: 3.2rem;
+
+  cursor: pointer;
+}
+
+.content-card a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+}
