@@ -8,7 +8,6 @@
 }
 
 * {
-  font-size: 62.5%;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -16,6 +15,7 @@
 
 html {
   font-family: 'Red Hat Display', sans-serif;
+  font-size: 62.5%;
 }
 
 body {
@@ -147,5 +147,9 @@ body {
  .card-hero {
    width: 90%;
  }
+
+ html {
+  font-size: 55%;
+}
 
 }
